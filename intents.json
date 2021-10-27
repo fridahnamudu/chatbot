@@ -1,0 +1,107 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello,thanks for visiting",
+        "Hi there, how can I help?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "I am out!",
+        "bye",
+        "see you later",
+        "goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day too",
+        "Bye! come back again soon."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you soo much",
+        "I appreciate",
+        "Thank you for your help"
+      ],
+      "responses": [
+        "My pleasure",
+        "Was nice talking to you",
+        "You are welcome!"
+      ]
+    },
+
+    {
+      "tag": "items",
+      "patterns": [
+        "What do you offer?",
+        "What do you sell?",
+        "What items are available?",
+        "What items are there?"
+      ],
+      "responses": [
+        "We sell art works",
+        "We have beautiful artworks"
+      ]
+    },
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take cards?",
+        "Do you accept Mastercard?",
+        "Do you accept M-pesa?",
+        "Do you accept cash?",
+        "How can i pay?",
+        "can i pay through M-pesa?"
+      ],
+      "responses": [
+        "We accept M-pesa, cash and VISA only!"
+      ]
+    },
+
+    {
+      "tag": "Delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+
+    {
+      "tag": "home delivery",
+      "patterns": [
+        "Will you deliver at home?",
+        "Do you have a pick up point?",
+        "Do you do a home delivery?",
+        "Do you deliver?"
+      ],
+      "responses": [
+        "Yes we do have a pick up point, just visit our offices, and we also do  a home delivery"
+      ]
+    }
+
+  ]
+}
+
+
